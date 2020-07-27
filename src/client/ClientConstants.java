@@ -2,7 +2,7 @@ package client;
 
 public class ClientConstants {
 
-    private int panelHeight=770;
+    private int panelHeight=820;
     private int panelWidth=700;
     private int networkPanelMinx=100;
     private int networkPanelMinY=350;
@@ -10,6 +10,9 @@ public class ClientConstants {
     private int networkPanelSizeX=50;
     private int port=8000;
     private int sizeBoard=250;
+    private int sixeX=100;
+    private int sizeY=100;
+
 
     public ClientConstants() {
 
@@ -77,6 +80,22 @@ public class ClientConstants {
 
     public int getSizeBoard() {
         return sizeBoard;
+    }
+
+    public int getSixeX() {
+        return sixeX;
+    }
+
+    public void setSixeX(int sixeX) {
+        this.sixeX = sixeX;
+    }
+
+    public int getSizeY() {
+        return sizeY;
+    }
+
+    public void setSizeY(int sizeY) {
+        this.sizeY = sizeY;
     }
 
     public void setSizeBoard(int sizeBoard) {

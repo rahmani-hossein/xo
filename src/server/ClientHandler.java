@@ -158,6 +158,9 @@ public class ClientHandler extends Thread {
                     checkGame(request);
                 }
                 break;
+            case"move":
+                game.executeMove(request);
+                break;
         }
     }
 

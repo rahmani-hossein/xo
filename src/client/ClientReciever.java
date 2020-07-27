@@ -82,6 +82,29 @@ public class ClientReciever extends Thread {
                         e.printStackTrace();
                     }
                     break;
+                case "move":
+                    GameState myGameState=getObject(request.getBody());
+                    System.out.println(myGameState.isTurn());
+                    if (myGameState!=null){
+                        Controller.getInstance().setGameState(myGameState);
+                        if (Controller.getInstance().getGameState().getGameover()==1){
+                            JOptionPane.showMessageDialog(Controller.getInstance().getMyFrame()," congratulation,you win. ","U+1F389",JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        if (Controller.getInstance().getGameState().getGameover()==2){
+                            JOptionPane.showMessageDialog(Controller.getInstance().getMyFrame()," sorry,you lose. ","://",JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        if (Controller.getInstance().getGameState().getGameover()==3){
+                            JOptionPane.showMessageDialog(Controller.getInstance().getMyFrame(),"you tie in this game.not bad:)","tie",JOptionPane.INFORMATION_MESSAGE);
+                        }
+                        System.out.println("before repainting");
+                        Controller.getInstance().getGamePanel().repaint();
+                        Controller.getInstance().getGamePanel().revalidate();
+                        System.out.println("after repainting");
+                    }
+                    else {
+                        JOptionPane.showMessageDialog(Controller.getInstance().getMyFrame(),"error getting gamestate","networkError",JOptionPane.ERROR_MESSAGE);
+                    }
+                    break;
                 case "waiting":
                     Controller.getInstance().setHaveOpponent(true);
                     JOptionPane.showMessageDialog(Controller.getInstance().getMyFrame(),"wait for enother client ","play waiting",JOptionPane.INFORMATION_MESSAGE);

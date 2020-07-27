@@ -78,10 +78,20 @@ public class GameServer extends Thread {
     }
 
     public void changeState(Player player){
-        int i= players.indexOf(player);
+        int i= getIndex(players,player);
         if (i!=-1) {
             players.get(i).setState("online");
         }
+    }
+
+    private int getIndex(ArrayList<Player>players,Player player){
+        int i=-1;
+        for (int j = 0; j < players.size(); j++) {
+            if (players.get(j).getUsername().equalsIgnoreCase(player.getUsername())){
+                return j;
+            }
+        }
+        return i;
     }
     //getter&setter
 

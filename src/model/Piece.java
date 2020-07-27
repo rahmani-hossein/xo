@@ -11,6 +11,9 @@ public class Piece {
         this.name = name;
         this.location = location;
     }
+    public Piece(){
+
+    }
 
     public String getName() {
         return name;

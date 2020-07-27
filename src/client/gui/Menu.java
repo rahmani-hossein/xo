@@ -81,8 +81,6 @@ public class Menu extends JPanel {
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }
-
-
             }
         });
         play.setBounds(100, 500, 100, 60);

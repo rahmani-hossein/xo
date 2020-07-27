@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b66e90e3-190b-4ecc-8b24-9a60639d711c" name="Default Changelist" comment="" />
+    <list default="true" id="b66e90e3-190b-4ecc-8b24-9a60639d711c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/gui/Picture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user/player.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user/player.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user/userJson/metoo.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user/userJson/metoo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user/userJson/neginman.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user/userJson/neginman.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user/userText/manvatoo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user/userText/manvatoo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user/userText/metoo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user/userText/metoo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/user/userText/neginman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/user/userText/neginman.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/ClientConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/ClientConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/ClientReciever.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/ClientReciever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/gui/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/gui/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/gui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/gui/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/BoardManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/BoardManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/GameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Location.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1f07lLaZKMRt1aj0qeVvfo4smwB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jar_files/jackson-databind-2.11.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -101,34 +127,38 @@
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="266" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1620.1040@0.0.1620.1040" timestamp="1595676787446" />
-    <state x="616" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1595772790919">
+    <state x="616" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1595842938813">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state x="616" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1620.1040@0.0.1620.1040" timestamp="1595772790919" />
+    <state x="616" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1620.1040@0.0.1620.1040" timestamp="1595842938813" />
     <state x="605" y="405" width="408" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1595765189656">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="605" y="405" width="408" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1620.1040@0.0.1620.1040" timestamp="1595765189656" />
+    <state x="464" y="113" key="CommitChangelistDialog2" timestamp="1595785907762">
+      <screen x="0" y="0" width="1620" height="1040" />
+    </state>
+    <state x="464" y="113" key="CommitChangelistDialog2/0.0.1620.1040@0.0.1620.1040" timestamp="1595785907762" />
     <state x="514" y="262" key="FileChooserDialogImpl" timestamp="1595405377388">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
     <state x="514" y="262" key="FileChooserDialogImpl/0.0.1620.1040@0.0.1620.1040" timestamp="1595405377388" />
-    <state width="1578" height="282" key="GridCell.Tab.0.bottom" timestamp="1595774239024">
+    <state width="1578" height="282" key="GridCell.Tab.0.bottom" timestamp="1595876363801">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1595774239024" />
-    <state width="1578" height="282" key="GridCell.Tab.0.center" timestamp="1595774239024">
+    <state width="1578" height="282" key="GridCell.Tab.0.bottom/0.0.1620.1040@0.0.1620.1040" timestamp="1595876363801" />
+    <state width="1578" height="282" key="GridCell.Tab.0.center" timestamp="1595876363800">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1595774239024" />
-    <state width="1578" height="282" key="GridCell.Tab.0.left" timestamp="1595774239024">
+    <state width="1578" height="282" key="GridCell.Tab.0.center/0.0.1620.1040@0.0.1620.1040" timestamp="1595876363800" />
+    <state width="1578" height="282" key="GridCell.Tab.0.left" timestamp="1595876363800">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1595774239024" />
-    <state width="1578" height="282" key="GridCell.Tab.0.right" timestamp="1595774239024">
+    <state width="1578" height="282" key="GridCell.Tab.0.left/0.0.1620.1040@0.0.1620.1040" timestamp="1595876363800" />
+    <state width="1578" height="282" key="GridCell.Tab.0.right" timestamp="1595876363800">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
-    <state width="1578" height="282" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1595774239024" />
+    <state width="1578" height="282" key="GridCell.Tab.0.right/0.0.1620.1040@0.0.1620.1040" timestamp="1595876363800" />
     <state x="291" y="94" key="SettingsEditor" timestamp="1595405389028">
       <screen x="0" y="0" width="1620" height="1040" />
     </state>
